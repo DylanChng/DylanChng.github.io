@@ -20,11 +20,12 @@ footer{
 }
 
 #signUpForm{
-    margin:5% auto;
+    margin:3% auto;
     box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    height: auto;
 }
 
-#signUpForm label{
-    font-weight: bold;
-    font-size: 18px;
+#signUpForm input:focus{
+    border-color: green!important;
+    box-shadow:0 0 0 .2rem rgba(0,255,0,.25)!important;
 }
